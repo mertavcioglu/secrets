@@ -7,6 +7,8 @@ const encrypt = require("mongoose-encryption")
 
 const app = express()
 
+const a = 5
+
 app.use(express.static("public"))
 app.set("view engine", "ejs")
 app.use(bodyParser.urlencoded({
